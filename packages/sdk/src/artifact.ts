@@ -3,6 +3,7 @@ import { ClosedMinter } from './contracts/token/closedMinter'
 import { OpenMinter } from './contracts/token/openMinter'
 import { CAT20 } from './contracts/token/cat20'
 import { TransferGuard } from './contracts/token/transferGuard'
+import { FbtcCat20Swapper } from './contracts/token/fbtcCat20Swapper2'
 import { OpenMinterV2 } from './contracts/token/openMinterV2'
 import { NftClosedMinter } from './contracts/nft/nftClosedMinter'
 import { NftParallelClosedMinter } from './contracts/nft/nftParallelClosedMinter'
@@ -17,6 +18,7 @@ import openMinterV2 from '../artifacts/contracts/token/openMinterV2.json'
 import cat20 from '../artifacts/contracts/token/cat20.json'
 import burnGuard from '../artifacts/contracts/token/burnGuard.json'
 import transferGuard from '../artifacts/contracts/token/transferGuard.json'
+import fbtcCat20Swapper from '../artifacts/contracts/token/fbtcCat20Swapper2.json'
 
 
 import nftClosedMinter from '../artifacts/contracts/nft/nftClosedMinter.json'
@@ -36,6 +38,7 @@ export function loadArtifacts() {
     CAT20.loadArtifact(cat20)
     BurnGuard.loadArtifact(burnGuard)
     TransferGuard.loadArtifact(transferGuard)
+    FbtcCat20Swapper.loadArtifact(fbtcCat20Swapper)
     // nft minter
     NftClosedMinter.loadArtifact(nftClosedMinter)
     NftParallelClosedMinter.loadArtifact(nftParallelClosedMinter)

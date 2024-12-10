@@ -1,0 +1,8 @@
+{
+  "name": "AMW0",
+  "symbol": "AMW",
+  "decimals": 2,
+  "max": "21000000",
+  "limit": "5",
+  "premine": "21000000"
+}

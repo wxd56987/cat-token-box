@@ -11,6 +11,7 @@ export class ConfigService {
     network: 'fractal-mainnet',
     tracker: 'http://127.0.0.1:3000',
     dataDir: '.',
+    apiKey: '',
     feeRate: -1,
     maxFeeRate: -1,
     rpc: null,
@@ -114,8 +115,10 @@ export class ConfigService {
     username: string;
     password: string;
   } => {
-    const config = this.getCliConfig();
-    return config.rpc;
+    // const config = this.getCliConfig();
+    // return config.rpc;
+
+    return null;
   };
 
   getRpcUser = () => {

@@ -7,6 +7,7 @@ export enum Postage {
   MINTER_POSTAGE = 331,
   TOKEN_POSTAGE = 330,
   NFT_POSTAGE = 333,
+  CURVE_POSTAGE = 335,
 }
 
 const INT32_MAX = 2147483647n;
